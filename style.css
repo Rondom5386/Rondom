@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Press+Start+2P&display=swap');
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.2s;
+    font-family: "Oswald", serif;
+}
+
+nav a:hover {
+    font-size: 35px;
+    opacity: 0.8;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border: 7px solid black;
+    border-radius: 80px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider img {
+    margin: 20px;
+}
+.pic {
+    display: flex;
+}
+.pic_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic p {
+    text-align: center;
+    margin: 0 20%;
+    font-family: "Great Vibes", serif;
+    color: rgb(9, 24, 51);
+    font-size: 30px;
+    cursor: default;
+    
+
+}
+
+.pic h1 {
+font-size: 20px;
+cursor: default;
+
+}
+
+
+#cl {
+    background-color: black;
+}
+
+body {
+display: flex;
+flex-direction: column;
+}
+
+.slider {
+    flex: 1;
+}
