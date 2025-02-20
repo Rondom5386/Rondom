@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="comments.css">
+    <link rel="stylesheet" href="dropdown.css">
+
 </head>
 <body>
 
@@ -13,8 +16,28 @@
         <nav>
             <ul>
                 <li><a href="#">Главная страница</a></li>
-                <li><a href="#">Магазин</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li>
+                    <a href="#">Магазин</a>
+                    <div class="dropdown">
+                        <a href="#">товар 1</a>
+                        <a href="#">товар 2</a>
+                        <a href="#">товар 3</a>
+                    </div>
+                </li>
+                <li>
+                <li><a href="#">Контакты</a>
+                    <div class="dropdown_contakts">
+                        <a href="#">ТГ</a>
+                        <div class="dropdown_tg">
+
+                        <a href="#">вк</a>
+                        <div class="dropdown_vk">
+
+                        <a href="#">инстаграм</a>
+                        <div class="dropdown_instagram">
+
+                    </div>
+                </li>
                 <li><a href="#">Мерч</a></li>
             </ul>
         </nav>
@@ -24,24 +47,13 @@
         <div class="pic">
             <div class="pic_flex">
                 <img src="https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg" alt="">
-                <h1>имя</h1>
+                <h1>Имя</h1>
             </div>
-            <p>действие</p>
-        </div>
-        <div class="pic">
-            <div class="pic_flex">
-            <img src="https://static.vecteezy.com/system/resources/previews/010/008/086/non_2x/background-dimension-3d-graphic-message-board-for-text-and-message-design-line-shadow-for-modern-web-design-free-vector.jpg" alt="">
-            <h1>имя</h1>
+            <div class="pic_comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, saepe? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, voluptatem.</p> 
             </div>
-            <p>действие</p>
         </div>
-        <div class="pic">
-            <div class="pic_flex">
-            <img src="https://img.freepik.com/premium-photo/colorful-background-with-yellow-blue-geometric-pattern_481527-25413.jpg" alt="">
-            <h1>имя</h1>
-            </div>
-            <p>действие</p>
-        </div>
+        
     </div>
 
 

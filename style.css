@@ -29,13 +29,12 @@ nav a {
 }
 
 nav a:hover {
-    font-size: 35px;
     opacity: 0.8;
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     border: 7px solid black;
     border-radius: 80px;
 }
@@ -50,6 +49,8 @@ img {
 }
 .pic {
     display: flex;
+    border-bottom: 2px solid black;
+    margin: 20px 0;
 }
 .pic_flex {
     display: flex;
@@ -57,9 +58,8 @@ img {
 }
 
 .pic p {
-    text-align: center;
-    margin: 0 20%;
-    font-family: "Great Vibes", serif;
+    text-align: left;
+    margin: 0 10%;
     color: rgb(9, 24, 51);
     font-size: 30px;
     cursor: default;
