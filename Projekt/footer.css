@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Shafarik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Rubik+Mono+One&family=Shafarik&display=swap');
+
+footer {
+background-color: black;
+color: white;
+padding:  12px;
+cursor: default;
+}
+
+.footer_contener {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer_sections {
+    flex: 1;
+    margin: 10px;
+}
+.footer_sections h4 {
+   border-bottom: 1px solid #fff;
+   padding-bottom: 10px;
+   font-size: 25px;
+}
+
+.footer_sections a {
+color: white;
+text-decoration: none;
+font-family: "Rubik Mono One", serif;
+}
+
+.footer_sections h4 {
+    font-family: "Shafarik", serif;
+
+}
+
+.footer_sections p {
+    font-family: "Rubik Mono One", serif;
+}
